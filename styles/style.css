@@ -1,0 +1,24 @@
+
+.tweet {
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.tweet__username {
+    color: tomato;
+}
+
+.tweet__text {
+    color: black;
+    maxWidth: 500px;
+}
+
+.subheading {
+    padding: 1%;
+    font-size: larger;
+}
