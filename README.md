@@ -11,12 +11,12 @@ To get started
  * git clone
  * npm install
  * open config.template.js and enter your twitter consumerKey, consumerSecret
- * rename/move config.template.js -> config.js
+ * rename config.template.js -> config.js
  * npm run api (runs a small server to communicate with twitter's api) - run in a seperate terminal window.
  * npm run dev (runs a small server to host the application)
  * go to localhost:8080
  
-The application comprises of two small webservers, one to how the application and the other to make api requests.
+The application comprises of two small webservers, one to host the application and the other to make api requests.
 The host of the application will initially load the data from twitter to render the react app server side.
 Once on the client, the application works like a SPA, the trends request goes firstly to the api server running,
 which in turn communicates to twitter on your behalf to not expose any apikeys to the public.
